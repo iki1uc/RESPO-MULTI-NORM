@@ -1,23 +1,46 @@
-# iki1uc – ROOT
+# RESPO‑MULTI‑NORM (iki1uc)
 
-## Zweck
-Dieses Repository bildet den Ursprung der gesamten Struktur.  
-Es stellt die öffentliche Identität des Systems bereit und dient  
-als Einstiegspunkt für alle Module, Achsen und Bereiche.
+RESPO‑MULTI‑NORM ist das zentrale Norm‑System für alle RESPO‑Cluster.
+Es definiert die gemeinsame Struktur, die Antwort‑Normen und die
+System‑Lage für alle Module, die im Orbit eingesetzt werden.
 
-## Identität
-- CORE: iki1uc  
-- VERSION: 1.0  
-- CODE: RAW  
-- LAGE: ROOT / Creator / NC  
-- STATUS: Online  
+Das System ist kompatibel mit:
 
-## Inhalt
-- index.html – öffentliche Landing‑Page  
-- ID.html – Identitätsdarstellung  
-- visual/ – Visualisierungen  
-- modules/ – Verlinkte System‑Repos  
+- STA (Stations‑Achse)
+- UP (Universal‑Processor)
+- SET (System‑Engine‑Time)
+- RAWATOR (RAW‑Generator)
+- PX‑TRIO / PX12 / PX4
+- SYS‑x / 2me
 
-## Hinweis
-Dieses Repository enthält keine Engine‑Mechanismen.  
-Es dient ausschließlich der öffentlichen Darstellung und Struktur.
+---
+
+## 🔷 FUNKTION
+
+RESPO‑MULTI‑NORM erzeugt:
+
+- **Norm‑Antworten** (OK / HELP / ERROR / VOID)
+- **Cluster‑Identität**
+- **Multi‑RESPO‑Scan**
+- **System‑Stempel**
+- **Orbit‑Kompatibilität**
+
+Es ist die gemeinsame Basis für alle RESPO‑Dateien im System.
+
+---
+
+## 🔷 MODULE
+
+| Datei | Funktion |
+|-------|----------|
+| `index.html` | Multi‑Norm‑Interface (Scan + Anzeige) |
+| `ID.html` | Identität des RESPO‑Norm‑Systems |
+| `513.html` | Spezial‑Norm (513‑Block) |
+| `README.md` | Dokumentation |
+
+---
+
+## 🔷 ORBIT‑POSITION
+
+RESPO‑MULTI‑NORM liegt im Orbit zwischen:
+
